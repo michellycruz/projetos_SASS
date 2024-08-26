@@ -2,7 +2,7 @@
   text-shadow: 3px 2px #000;
 }
 
-.services-container h2 {
+.jobs-container h2, .services-container h2 {
   font-size: 3rem;
   margin-top: 2rem;
   text-align: center;
@@ -146,6 +146,22 @@ li {
   cursor: pointer;
   border: transparent;
   box-shadow: 0 1px 10px #ccc;
+}
+
+.jobs-container {
+  background-color: #e5eaff;
+  padding: 3rem;
+}
+.jobs-container .jobs-list {
+  display: flex;
+  padding: 2rem 0;
+}
+.jobs-container .jobs-list .first-job {
+  width: 30%;
+  height: 415px;
+  background-image: url(../img/job1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
