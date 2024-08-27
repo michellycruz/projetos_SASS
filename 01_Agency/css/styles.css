@@ -156,12 +156,5 @@ li {
   display: flex;
   padding: 2rem 0;
 }
-.jobs-container .jobs-list .first-job {
-  width: 30%;
-  height: 415px;
-  background-image: url(../img/job1.jpg);
-  background-position: center;
-  background-size: cover;
-}
 
 /*# sourceMappingURL=styles.css.map */
