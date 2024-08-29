@@ -47,6 +47,9 @@
 %card-hover
     .job-card-title, .job-card-cover, .job-card-description
         opacity: 0
+
+        @include mobile
+            opacity: 1
         
     &:hover
         .job-card-title, .job-card-cover, .job-card-description
