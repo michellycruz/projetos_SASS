@@ -119,4 +119,85 @@ ul {
   color: #d10024;
 }
 
+.header-bottom {
+  background-color: #fff;
+  border-bottom: 2px solid #e4e7ed;
+  border-top: 3px solid #d10024;
+}
+.header-bottom ul {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  justify-content: left;
+  padding: 1rem 0;
+}
+.header-bottom ul li {
+  margin-right: 1.3rem;
+}
+.header-bottom ul li a {
+  color: #2b2d42;
+  border-bottom: 2px solid transparent;
+}
+.header-bottom ul li a:hover {
+  color: #d10024;
+  border-color: #d10024;
+}
+
+.banners {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.btn {
+  padding: 8px 15px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d10024;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #d10024;
+  transition: 0.4s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #d10024;
+}
+.btn-half {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-transform: none;
+}
+
+.banner {
+  width: 30%;
+  height: 200px;
+  position: relative;
+  color: #fff;
+  transition: 0.4s;
+  background-position: cover;
+  background-size: cover;
+  background-size: 100%;
+}
+.banner:hover {
+  background-size: 120%;
+}
+.banner-cover {
+  background-color: #d10024;
+  width: 70%;
+  height: 100%;
+  opacity: 0.8;
+  border-bottom-right-radius: 6rem;
+}
+
+#banner-1 {
+  background-image: url("../../img/banner-1.jpg");
+}
+
 /*# sourceMappingURL=app.css.map */
